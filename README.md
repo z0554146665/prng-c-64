@@ -8,8 +8,6 @@ It accepts the following argument.
 
 1. `s` is the pointer that contains the state. Each state integer must be initialized with any combination of values.
 
-It returns a 64-bit unsigned integer pseudorandom number result.
-
 It's in the same class as JSF64, PCG32, `pcg32_fast`, PCG64 and `pcg64_fast` as they all use 64-bit state integers.
 
 It has a minimum period of 2⁶⁴ without broken cycles.
