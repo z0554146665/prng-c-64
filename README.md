@@ -16,8 +16,6 @@ It has a minimum period of 2⁶⁴ without broken cycles.
 
 It has an approximated maximum period of 2¹²⁸, although no cycle is guaranteed to reach a full 2¹²⁸ period.
 
-An odd-numbered constant sums with `b` for 2⁶⁴ different numbers to XOR with `a` in each cycle.
-
 Incrementing `b` outside of `prng_c_64()` behaves as an interdimensional jump function that starts a different cycle with a period of at least 2⁶⁴.
 
 Zeroland escapes quickly after generating 3 subsequent numbers.
